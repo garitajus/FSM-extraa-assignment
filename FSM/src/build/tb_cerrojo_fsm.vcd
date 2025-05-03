@@ -1,0 +1,262 @@
+$date
+	Fri May 02 20:21:37 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_cerrojo_fsm $end
+$var wire 1 ! UNLOCK $end
+$var wire 1 " INC $end
+$var wire 1 # CLRTIMER $end
+$var wire 1 $ CLRCNTR $end
+$var reg 1 % ECNT3 $end
+$var reg 1 & LOCKED $end
+$var reg 4 ' NUM [3:0] $end
+$var reg 1 ( PUSHED $end
+$var reg 1 ) WAITDONE $end
+$var reg 1 * clk $end
+$var reg 1 + rst $end
+$scope module dut $end
+$var wire 1 % ECNT3 $end
+$var wire 1 & LOCKED $end
+$var wire 4 , NUM [3:0] $end
+$var wire 1 ( PUSHED $end
+$var wire 1 ) WAITDONE $end
+$var wire 1 * clk $end
+$var wire 1 + rst $end
+$var reg 1 $ CLRCNTR $end
+$var reg 1 # CLRTIMER $end
+$var reg 1 " INC $end
+$var reg 1 ! UNLOCK $end
+$var reg 6 - next [5:0] $end
+$var reg 6 . state [5:0] $end
+$upscope $end
+$scope task ingresar_codigo $end
+$var reg 4 / valor [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx /
+b1 .
+b1 -
+b0 ,
+1+
+0*
+0)
+0(
+b0 '
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000
+1*
+#10000
+0*
+#15000
+1*
+#20000
+0*
+0+
+#25000
+1*
+#30000
+0*
+#35000
+1*
+#40000
+1"
+b10000 -
+0*
+1(
+b1 '
+b1 ,
+b1 /
+#45000
+b1 -
+0"
+b10000 .
+1*
+#50000
+b1 -
+0*
+0(
+#55000
+b1 .
+1*
+#60000
+0*
+#65000
+1*
+#70000
+0*
+#75000
+1*
+#80000
+1"
+b10000 -
+0*
+1(
+b10 '
+b10 ,
+b10 /
+#85000
+b1 -
+0"
+b10000 .
+1*
+#90000
+b1 -
+0*
+0(
+#95000
+b1 .
+1*
+#100000
+0*
+#105000
+1*
+#110000
+0*
+#115000
+1*
+#120000
+1"
+b10000 -
+0*
+1(
+b11 '
+b11 ,
+b11 /
+#125000
+b1 -
+0"
+b10000 .
+1*
+#130000
+b1 -
+0*
+0(
+#135000
+b1 .
+1*
+#140000
+0*
+#145000
+1*
+#150000
+0*
+#155000
+1*
+#160000
+b100000 -
+0*
+1%
+#165000
+b100000 .
+1*
+#170000
+0*
+1(
+b111 '
+b111 ,
+b111 /
+0%
+#175000
+1*
+#180000
+0*
+0(
+#185000
+1*
+#190000
+0*
+#195000
+1*
+#200000
+0*
+#205000
+1*
+#210000
+1$
+b1 -
+0*
+1)
+#215000
+0$
+b1 .
+1*
+#220000
+b10 -
+0*
+1(
+0)
+#225000
+1"
+b10000 -
+b10 .
+1*
+#230000
+0"
+b10 -
+0*
+0(
+#235000
+1*
+#240000
+b100 -
+0*
+1(
+b1000 '
+b1000 ,
+b1000 /
+#245000
+1"
+b10000 -
+b100 .
+1*
+#250000
+0"
+b100 -
+0*
+0(
+#255000
+1*
+#260000
+1!
+b1000 -
+0*
+1(
+b1001 '
+b1001 ,
+b1001 /
+#265000
+0!
+b1000 .
+1*
+#270000
+0*
+0(
+#275000
+1*
+#280000
+0*
+#285000
+1*
+#290000
+0*
+#295000
+1*
+#300000
+0*

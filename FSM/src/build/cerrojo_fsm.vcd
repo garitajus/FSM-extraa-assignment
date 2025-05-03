@@ -1,0 +1,199 @@
+$date
+	Thu May 01 18:40:51 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_cerrojo_fsm $end
+$var wire 1 ! UNLOCK $end
+$var wire 1 " INC $end
+$var wire 1 # CLRTIMER $end
+$var wire 1 $ CLRCNTR $end
+$var reg 1 % ECNT3 $end
+$var reg 1 & LOCKED $end
+$var reg 4 ' NUM [3:0] $end
+$var reg 1 ( PUSHED $end
+$var reg 1 ) WAITDONE $end
+$var reg 1 * clk $end
+$var reg 1 + rst $end
+$scope module dut $end
+$var wire 1 % ECNT3 $end
+$var wire 1 & LOCKED $end
+$var wire 4 , NUM [3:0] $end
+$var wire 1 ( PUSHED $end
+$var wire 1 ) WAITDONE $end
+$var wire 1 * clk $end
+$var wire 1 + rst $end
+$var reg 1 $ CLRCNTR $end
+$var reg 1 # CLRTIMER $end
+$var reg 1 " INC $end
+$var reg 1 ! UNLOCK $end
+$var reg 6 - next [5:0] $end
+$var reg 6 . state [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 .
+b1 -
+b0 ,
+1+
+0*
+0)
+0(
+b0 '
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1*
+#10
+b10 -
+0*
+b111 '
+b111 ,
+1(
+0+
+#15
+1"
+b10000 -
+b10 .
+1*
+#20
+0"
+b10 -
+0*
+0(
+#25
+1*
+#30
+b100 -
+0*
+b1000 '
+b1000 ,
+1(
+#35
+1"
+b10000 -
+b100 .
+1*
+#40
+0"
+b100 -
+0*
+0(
+#45
+1*
+#50
+1!
+b1000 -
+0*
+b1001 '
+b1001 ,
+1(
+#55
+0!
+b1000 .
+1*
+#60
+0*
+0(
+#65
+1*
+#70
+1$
+b1 -
+0*
+1&
+#75
+1$
+b1 .
+1*
+#80
+1"
+b10000 -
+0$
+0*
+b1 '
+b1 ,
+1(
+0&
+#85
+b1 -
+0"
+b10000 .
+1*
+#90
+b1 -
+0*
+0(
+#95
+b1 .
+1*
+#100
+1"
+b10000 -
+0*
+1(
+#105
+b1 -
+0"
+b10000 .
+1*
+#110
+b1 -
+0*
+0(
+#115
+b1 .
+1*
+#120
+1"
+b10000 -
+0*
+1(
+#125
+b1 -
+0"
+b10000 .
+1*
+#130
+b1 -
+0*
+0(
+#135
+b1 .
+1*
+#140
+b100000 -
+0*
+1%
+#145
+b100000 .
+1*
+#150
+1$
+b1 -
+0*
+1)
+#155
+b100000 -
+0$
+b1 .
+1*
+#160
+b1 -
+0*
+0%
+0)
